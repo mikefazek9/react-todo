@@ -13,7 +13,7 @@ function Form({input, setInput, todo, setTodo}) {
  const submitTodo=(e)=>{
      e.preventDefault()
     setTodo([
-        ...todo,{text: input, id: Math.floor(Math.random()* 1000)}
+        ...todo,{text: input, id: Math.floor(Math.random()* 10000)}
     ]);
     setInput("");
  }

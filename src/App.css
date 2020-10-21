@@ -9,3 +9,25 @@ body {
 .button {
   margin: 1rem;
 }
+.todo-container {
+  display: flex;
+  flex-direction: column;
+}
+.todo-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.list-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 1rem;
+}
+.todo-item {
+  list-style: none;
+  color: #fff;
+  margin-right: 1rem;
+  font-size: 1.5rem;
+}
