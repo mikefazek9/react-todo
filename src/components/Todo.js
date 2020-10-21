@@ -5,7 +5,6 @@ import DeleteIcon from '@material-ui/icons/Delete';
 function Todo({todo, setTodo}) {
     
     const removeHandler=()=>{
-        // eslint-disable-next-line no-self-compare
         setTodo(todo.filter((el) => el.id !== el.id))
         console.log(todo)
     }
